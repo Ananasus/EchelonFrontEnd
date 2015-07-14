@@ -1,0 +1,15 @@
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\attach_server.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\visualstudio_py_repl.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\visualstudio_py_util.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\__init__.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\__main__.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\bin\AzureSetup.cfg
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\bin\wfastcgi.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\deployment-updated-orig-prefix.txt
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\ptvs_virtualenv_proxy.py
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\web.config
+C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontend\obj\Debug\web.debug.config
