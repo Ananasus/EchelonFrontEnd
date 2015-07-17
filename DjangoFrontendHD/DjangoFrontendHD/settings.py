@@ -14,9 +14,13 @@ ALLOWED_HOSTS = (
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
+    ('PineApple', 'pine@ananse.com'),
+    ('Banana', 'banana@ananase.com'),
 )
 
 MANAGERS = ADMINS
+
+
 
 DATABASES = {
     'default': {
@@ -130,7 +134,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app',
+    'syncdb',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"text",
+				"textarea	Tag"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +15,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1487,
+				"buffer_size": 1114,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +23,7 @@
 			"file": "/C/Users/Raaw/Documents/Visual Studio 2013/Projects/Echelon/DjangoFrontendHD/app/static/app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 1248,
+				"buffer_size": 1280,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,7 +127,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -132,15 +136,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1487,
+						"buffer_size": 1114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								78
+								513,
+								513
 							]
 						],
 						"settings":
@@ -162,15 +166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1248,
+						"buffer_size": 1280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								722,
+								722
 							]
 						],
 						"settings":
@@ -182,7 +186,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -254,8 +258,8 @@
 						"selection":
 						[
 							[
-								993,
-								993
+								215,
+								215
 							]
 						],
 						"settings":
@@ -268,7 +272,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

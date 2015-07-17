@@ -4,7 +4,7 @@ Definition of urls for DjangoFrontendHD.
 
 from datetime import datetime
 from django.conf.urls import patterns, url
-from app.forms import BootstrapAuthenticationForm
+from syncdb.forms import BootstrapAuthenticationForm
 
 # Uncomment the next lines to enable the admin:
 # from django.conf.urls import include
@@ -13,13 +13,13 @@ from app.forms import BootstrapAuthenticationForm
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'app.views.home', name='home'),
-    url(r'^contact$', 'app.views.contact', name='contact'),
-    url(r'^about', 'app.views.about', name='about'),
+    url(r'^$', 'syncdb.views.home', name='home'),
+    url(r'^contact$', 'syncdb.views.contact', name='contact'),
+    url(r'^about', 'syncdb.views.about', name='about'),
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
-            'template_name': 'app/login.html',
+            'template_name': 'syncdb/login.html',
             'authentication_form': BootstrapAuthenticationForm,
             'extra_context':
             {
@@ -34,7 +34,7 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
-
+    url(r'^get_recent', 'syncdb.views.get_recent', name='recents')
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
