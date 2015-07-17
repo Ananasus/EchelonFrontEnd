@@ -5509,3 +5509,180 @@ helon\DjangoFrontendHD\Echelon\Scripts\activate_this.py")
 2015-07-17T00:20:51: Saving group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\_markerlib"
 2015-07-17T00:20:51: End of group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\_markerlib"
 2015-07-17T00:20:52: Deleting 0 files
+
+2015-07-17T16:46:52: Start analysis
+2015-07-17T16:46:52: IncludeModulesFromModulePath = win32com
+2015-07-17T16:46:53: Deleting 0 files
+
+2015-07-17T19:03:50: Start analysis
+2015-07-17T19:03:51: IncludeModulesFromModulePath = win32com
+2015-07-17T19:03:52: Deleting 0 files
+2015-07-17T19:03:52: astropy.CallDepth = 0
+2015-07-17T19:03:52: matplotlib.CallDepth = 3
+2015-07-17T19:03:52: pandas.CallDepth = 0
+2015-07-17T19:03:52: sympy.CallDepth = 0
+2015-07-17T19:03:52: Start group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson" with 35 files
+2015-07-17T19:03:53: Parsing "simplejson.compat" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\compat.py")
+2015-07-17T19:03:53: Parsing "simplejson.decoder" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\decoder.py")
+2015-07-17T19:03:53: Parsing "simplejson.encoder" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\encoder.py")
+2015-07-17T19:03:53: Parsing "simplejson.ordered_dict" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\ordered_dict.py")
+2015-07-17T19:03:53: Parsing "simplejson.scanner" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\scanner.py")
+2015-07-17T19:03:53: Parsing "simplejson.tool" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tool.py")
+2015-07-17T19:03:53: Parsing "simplejson" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\__init__.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_bigint_as_string" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_bigint_as_string.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_bitsize_int_as_string" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_bitsize_int_as_string.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_check_circular" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_check_circular.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_decimal" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_decimal.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_decode" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_decode.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_default" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_default.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_dump" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_dump.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_encode_basestring_ascii" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_encode_basestring_ascii.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_encode_for_html" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_encode_for_html.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_errors" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_errors.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_fail" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_fail.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_float" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_float.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_for_json" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_for_json.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_indent" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_indent.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_item_sort_key" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_item_sort_key.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_namedtuple" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_namedtuple.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_pass1" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_pass1.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_pass2" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_pass2.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_pass3" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_pass3.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_recursion" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_recursion.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_scanstring" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_scanstring.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_separators" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_separators.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_speedups" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_speedups.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_subclass" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_subclass.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_tool" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_tool.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_tuple" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_tuple.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests.test_unicode" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\test_unicode.py")
+2015-07-17T19:03:53: Parsing "simplejson.tests" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson\tests\__init__.py")
+2015-07-17T19:03:53: Parsing complete
+2015-07-17T19:03:53: Analyzing "simplejson.compat"
+2015-07-17T19:03:53: Analyzing "simplejson.decoder"
+2015-07-17T19:03:53: Analyzing "simplejson.encoder"
+2015-07-17T19:03:53: Analyzing "simplejson.ordered_dict"
+2015-07-17T19:03:53: Analyzing "simplejson.scanner"
+2015-07-17T19:03:53: Analyzing "simplejson.tool"
+2015-07-17T19:03:53: Analyzing "simplejson"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_bigint_as_string"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_bitsize_int_as_string"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_check_circular"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_decimal"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_decode"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_default"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_dump"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_encode_basestring_ascii"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_encode_for_html"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_errors"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_fail"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_float"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_for_json"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_indent"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_item_sort_key"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_namedtuple"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_pass1"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_pass2"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_pass3"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_recursion"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_scanstring"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_separators"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_speedups"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_subclass"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_tool"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_tuple"
+2015-07-17T19:03:53: Analyzing "simplejson.tests.test_unicode"
+2015-07-17T19:03:53: Analyzing "simplejson.tests"
+2015-07-17T19:03:53: Starting analysis of 35 modules
+2015-07-17T19:03:54: Analysis complete
+2015-07-17T19:03:54: Saving group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson"
+2015-07-17T19:03:54: End of group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\simplejson"
+2015-07-17T19:03:56: Deleting 0 files
+
+2015-07-17T22:02:57: Start analysis
+2015-07-17T22:02:58: IncludeModulesFromModulePath = win32com
+2015-07-17T22:02:59: Deleting 0 files
+2015-07-17T22:02:59: astropy.CallDepth = 0
+2015-07-17T22:02:59: matplotlib.CallDepth = 3
+2015-07-17T22:02:59: pandas.CallDepth = 0
+2015-07-17T22:02:59: sympy.CallDepth = 0
+2015-07-17T22:02:59: Start group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim" with 4 files
+2015-07-17T22:03:01: Parsing "django_verbatim.models" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim\models.py")
+2015-07-17T22:03:01: Parsing "django_verbatim" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim\__init__.py")
+2015-07-17T22:03:01: Parsing "django_verbatim.templatetags.verbatim" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim\templatetags\verbatim.py")
+2015-07-17T22:03:01: Parsing "django_verbatim.templatetags" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim\templatetags\__init__.py")
+2015-07-17T22:03:01: Parsing complete
+2015-07-17T22:03:01: Analyzing "django_verbatim.models"
+2015-07-17T22:03:01: Analyzing "django_verbatim"
+2015-07-17T22:03:01: Analyzing "django_verbatim.templatetags.verbatim"
+2015-07-17T22:03:01: Analyzing "django_verbatim.templatetags"
+2015-07-17T22:03:01: Starting analysis of 4 modules
+2015-07-17T22:03:01: Analysis complete
+2015-07-17T22:03:01: Saving group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim"
+2015-07-17T22:03:01: End of group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\django_verbatim"
+2015-07-17T22:03:02: Deleting 0 files
+
+2015-07-17T22:09:14: Start analysis
+2015-07-17T22:09:15: IncludeModulesFromModulePath = win32com
+2015-07-17T22:09:16: Deleting 0 files
+2015-07-17T22:09:16: astropy.CallDepth = 0
+2015-07-17T22:09:16: matplotlib.CallDepth = 3
+2015-07-17T22:09:16: pandas.CallDepth = 0
+2015-07-17T22:09:16: sympy.CallDepth = 0
+2015-07-17T22:09:16: Start group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular" with 25 files
+2015-07-17T22:09:17: Parsing "djangular.handlers" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\handlers.py")
+2015-07-17T22:09:17: Parsing "djangular.middleware" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\middleware.py")
+2015-07-17T22:09:17: Parsing "djangular.models" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\models.py")
+2015-07-17T22:09:17: Parsing "djangular.urls" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\urls.py")
+2015-07-17T22:09:17: Parsing "djangular" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.core.urlresolvers" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\core\urlresolvers.py")
+2015-07-17T22:09:17: Parsing "djangular.core" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\core\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.angular_base" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\angular_base.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.angular_model" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\angular_model.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.angular_validation" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\angular_validation.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.fields" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\fields.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.field_mixins" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\field_mixins.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.models" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\models.py")
+2015-07-17T22:09:17: Parsing "djangular.forms.widgets" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\widgets.py")
+2015-07-17T22:09:17: Parsing "djangular.forms" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\forms\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.styling" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\styling\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.styling.bootstrap3.field_mixins" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\styling\bootstrap3\field_mixins.py")
+2015-07-17T22:09:17: Parsing "djangular.styling.bootstrap3.forms" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\styling\bootstrap3\forms.py")
+2015-07-17T22:09:17: Parsing "djangular.styling.bootstrap3.widgets" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\styling\bootstrap3\widgets.py")
+2015-07-17T22:09:17: Parsing "djangular.styling.bootstrap3" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\styling\bootstrap3\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.templatetags.djangular_tags" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\templatetags\djangular_tags.py")
+2015-07-17T22:09:17: Parsing "djangular.templatetags" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\templatetags\__init__.py")
+2015-07-17T22:09:17: Parsing "djangular.views.crud" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\views\crud.py")
+2015-07-17T22:09:17: Parsing "djangular.views.mixins" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\views\mixins.py")
+2015-07-17T22:09:18: Parsing "djangular.views" ("C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular\views\__init__.py")
+2015-07-17T22:09:18: Parsing complete
+2015-07-17T22:09:18: Analyzing "djangular.handlers"
+2015-07-17T22:09:18: Analyzing "djangular.middleware"
+2015-07-17T22:09:18: Analyzing "djangular.models"
+2015-07-17T22:09:18: Analyzing "djangular.urls"
+2015-07-17T22:09:18: Analyzing "djangular"
+2015-07-17T22:09:18: Analyzing "djangular.core.urlresolvers"
+2015-07-17T22:09:18: Analyzing "djangular.core"
+2015-07-17T22:09:18: Analyzing "djangular.forms.angular_base"
+2015-07-17T22:09:18: Analyzing "djangular.forms.angular_model"
+2015-07-17T22:09:18: Analyzing "djangular.forms.angular_validation"
+2015-07-17T22:09:18: Analyzing "djangular.forms.fields"
+2015-07-17T22:09:18: Analyzing "djangular.forms.field_mixins"
+2015-07-17T22:09:18: Analyzing "djangular.forms.models"
+2015-07-17T22:09:18: Analyzing "djangular.forms.widgets"
+2015-07-17T22:09:18: Analyzing "djangular.forms"
+2015-07-17T22:09:18: Analyzing "djangular.styling"
+2015-07-17T22:09:18: Analyzing "djangular.styling.bootstrap3.field_mixins"
+2015-07-17T22:09:18: Analyzing "djangular.styling.bootstrap3.forms"
+2015-07-17T22:09:18: Analyzing "djangular.styling.bootstrap3.widgets"
+2015-07-17T22:09:18: Analyzing "djangular.styling.bootstrap3"
+2015-07-17T22:09:18: Analyzing "djangular.templatetags.djangular_tags"
+2015-07-17T22:09:18: Analyzing "djangular.templatetags"
+2015-07-17T22:09:18: Analyzing "djangular.views.crud"
+2015-07-17T22:09:18: Analyzing "djangular.views.mixins"
+2015-07-17T22:09:18: Analyzing "djangular.views"
+2015-07-17T22:09:18: Starting analysis of 25 modules
+2015-07-17T22:09:18: Analysis complete
+2015-07-17T22:09:18: Saving group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular"
+2015-07-17T22:09:18: End of group "C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\Lib\site-packages\djangular"
+2015-07-17T22:09:19: Deleting 0 files

@@ -1,26 +1,25 @@
 var intervaled_timer;
 var csrftoken;
+var working = false;
+var last_known_id = "_none_";
+var events;
+var scope = undefined;
+//ANGULARJS Controllers
 
 
-function getCookie(name) {
-    var cookieValue = null;
-    if (document.cookie && document.cookie != '') {
-        var cookies = document.cookie.split(';');
-        for (var i = 0; i < cookies.length; i++) {
-            var cookie = jQuery.trim(cookies[i]);
-            // Does this cookie string begin with the name we want?
-            if (cookie.substring(0, name.length + 1) == (name + '=')) {
-                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                break;
-            }
-        }
-    }
-    return cookieValue;
-}
 
 function csrfSafeMethod(method) {
     // these HTTP methods do not require CSRF protection
     return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+
+function AppendEventData(data){
+	for(i in data){
+		obj = jQuery.parseJSON(data[i]);
+		events.push(obj);
+	}
+	//update bindings
+	scope.$digest();
 }
 
 function SendRequest(){
@@ -28,11 +27,14 @@ function SendRequest(){
 	$.ajax({
 		url : "get_recent/", // the endpoint
 		type : "POST", // http method
-		data : { the_post : $('#post-text').val() }, // data sent with the post request
-
+		data : JSON.stringify({ 'last_known_id':last_known_id }), // data sent with the post request
+		dataType: "json",
 		// handle a successful response
 		success : function(json) {
-			$('#post-text').val(''); // remove the value from the input
+			last_known_id = json.last_known_id;
+			if(json.data.length > 0) {
+				AppendEventData(json.data);
+			}
 
 			console.log(json); // log the returned json to the console
 			console.log("success"); // another sanity check
@@ -40,15 +42,40 @@ function SendRequest(){
 
 		// handle a non-successful response
 		error : function(xhr,errmsg,err) {
-			$('#table_content').html("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
-				" <a href='#' class='close'>&times;</a></div>"); // add the error to the dom
-			console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+			var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
+				" <span class='close'>&times;</span></div>");
+			$('.close',el).click(
+				function(){
+					$(this).parent().remove();
+
+				}
+			);
+
+			console.log('OLOLOLO: '+err); // provide a bit more info about the error to the console
 		}
 	})
 }
 
+
+function ToggleSyncing(object){
+	if(object == undefined)
+		object = this;
+	if(working) {
+		$(object).html('Start Sync');
+		window.clearInterval(intervaled_timer);
+	}
+	else {
+		intervaled_timer = setInterval(function() { SendRequest() },5000);
+		$(object).html('Stop Sync');
+	}
+	working = !working;
+}
+
+function ToggleSyncingClick(){
+	ToggleSyncing(this);
+}
+///MAIN FUNCTION
 $(document).ready( function(){
-	intervaled_timer = setInterval(function() { SendRequest() },5000);
 	csrftoken = $.cookie('csrftoken');
 	$.ajaxSetup({
     	beforeSend: function(xhr, settings) {
@@ -57,7 +84,10 @@ $(document).ready( function(){
         	}
     	}
 	});
-	
+	var btn = $('#sync_db_button');
+	ToggleSyncing(btn);
+	btn.click(ToggleSyncingClick)
+
 });
 //window.onfocus = function(){
 //	if(intervaled_timer)
@@ -69,3 +99,39 @@ $(document).ready( function(){
 //	delete intervaled_timer;
 //	console.log("Focus left");
 //}
+angular.module('RedisSync', [])
+	.controller('RedisDbSyncSetup', function($scope) {
+		$scope.events = [{"alert_class": "a", "sid": 197718341090436080329598542453518625507, "uid": 89982298614867403075834338541199092940, "description": "Just some random text #41"}];
+		events = $scope.events;
+		scope = $scope;
+		$scope.users = [
+			{
+				name:"Mahesh",
+				description:"A geek",
+				age:"22"
+			},
+			{
+				name:"Ganesh",
+				description:"A nerd",
+				age:"25"
+			},
+			{
+				name:"Ramesh",
+				description:"A noob",
+				age:"27"
+			},
+			{
+				name:"Ketan",
+				description:"A psychopath",
+				age:"26"
+			},
+			{
+				name:"Niraj",
+				description:"Intellectual badass",
+				age:"29"
+			}
+		];
+	});
+
+
+

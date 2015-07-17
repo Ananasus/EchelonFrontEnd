@@ -17,6 +17,6 @@ class Event(models.Model):
         self.description = description
         self.sid = sid
     def serialize(self):
-        return self.__dict__
+        return json.dumps(self.__dict__)
     def deserialize(self, data):
         self.__dict__ = json.loads(data)

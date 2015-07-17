@@ -1,32 +1,47 @@
 {% extends "app/layout.html" %}
 {% load staticfiles %}
-
-
+{% load djangular_tags %}
 {% block content %}
 
 <script type="text/javascript" src="{% static 'app/scripts/main.js' %}" ></script>
 <div class="jumbotron">
-    <h1>Django</h1>
-    <p class="lead">Django is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <h1>Redis Recent Events Dashboard</h1>
+    <p class="lead">Lorem Ipsum Dolor</p>
+    <p><span class="btn btn-large btn-warning" id="sync_db_button">Start Sync</span></p>
 </div>
 <!-- This row is for scripts output-->
-<div class="line" id="console_log_parent" style="width: 100vw">
-    <textarea id="console_log" wrap="soft" readonly="True" style="width: 100vw; height: 150px;">Console log is here</textarea>
+{% angularjs %}
+<div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup">
+    <p class="description">
+        <table class="table-responsive" id="events_output">
+            <th>Event UID</th>
+            <th>Event SID</th>
+            <th>Event Description</th>
+            <th>Event Alert Type</th>
+            <tr class="table-bordered" id="event_output_template" ng-repeat="event in events">
+                <td>{{event.uid}}</td>
+                <td>{{event.sid}}</td>
+                <td>{{event.description}}</td>
+                <td>{{event.alert_class}}</td>
+            </tr>
+
+        </table>
+
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p name="Table" id="table_content">
-            <table name="redis_table_root">
+
+
+<div class="row" style="width: 600px">
+    <div class="col-md-8" style="width: 50vw">
+        <h2>Output log</h2>
+        <p id="table_content">
+            <table>
                 <tr>
-                    
+
                 </tr>
             </table>
-        </p>
-        <p><a class="btn btn-default" href="http://www.djangobook.com/en/2.0/index.html">Learn more &raquo;</a></p>
     </div>
     
 </div>
+{% endangularjs %}
 
 {% endblock %}

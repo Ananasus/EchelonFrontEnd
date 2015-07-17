@@ -29,11 +29,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DjangoFrontendHD\syncdb\forms.py" />
-    <Compile Include="DjangoFrontendHD\syncdb\models.py" />
-    <Compile Include="DjangoFrontendHD\syncdb\redissync.py" />
-    <Compile Include="DjangoFrontendHD\syncdb\tests.py" />
-    <Compile Include="DjangoFrontendHD\syncdb\views.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoFrontendHD\__init__.py" />
     <Compile Include="DjangoFrontendHD\settings.py" />
@@ -48,15 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoFrontendHD\" />
-    <Folder Include="DjangoFrontendHD\syncdb\" />
-    <Folder Include="DjangoFrontendHD\syncdb\static\" />
-    <Folder Include="DjangoFrontendHD\syncdb\static\app\" />
-    <Folder Include="DjangoFrontendHD\syncdb\static\app\content\" />
-    <Folder Include="DjangoFrontendHD\syncdb\static\app\fonts\" />
-    <Folder Include="DjangoFrontendHD\syncdb\static\app\scripts\" />
-    <Folder Include="DjangoFrontendHD\syncdb\templates\" />
-    <Folder Include="DjangoFrontendHD\syncdb\templates\app\" />
-    <Folder Include="DjangoFrontendHD\syncdb\__pycache__\" />
     <Folder Include="syncdb\" />
     <Folder Include="syncdb\static\" />
     <Folder Include="syncdb\static\app\" />
@@ -68,42 +54,6 @@
     <Folder Include="syncdb\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DjangoFrontendHD\syncdb\static\app\content\bootstrap.css" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\content\bootstrap.min.css" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\content\site.css" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="DjangoFrontendHD\syncdb\static\app\scripts\_references.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\angular.min.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\bootstrap.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\bootstrap.min.js" />
-    <None Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery.validate-vsdoc.js" />
-    <None Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery-1.10.2.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery-1.10.2.min.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery-1.10.2.min.map" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery.validate.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery.validate.min.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\main.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\modernizr-2.6.2.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\respond.js" />
-    <Content Include="DjangoFrontendHD\syncdb\static\app\scripts\respond.min.js" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\about.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\contact.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\index.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\layout.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\login.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\loginpartial.html" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\sublime_project.sublime-project" />
-    <Content Include="DjangoFrontendHD\syncdb\templates\app\sublime_project.sublime-workspace" />
-    <Content Include="DjangoFrontendHD\syncdb\__pycache__\forms.cpython-34.pyc" />
-    <Content Include="DjangoFrontendHD\syncdb\__pycache__\models.cpython-34.pyc" />
-    <Content Include="DjangoFrontendHD\syncdb\__pycache__\redissync.cpython-34.pyc" />
-    <Content Include="DjangoFrontendHD\syncdb\__pycache__\views.cpython-34.pyc" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="syncdb\static\app\content\bootstrap.css" />

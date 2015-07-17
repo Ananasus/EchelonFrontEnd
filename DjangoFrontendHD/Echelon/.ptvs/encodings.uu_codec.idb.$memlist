@@ -1,0 +1,11 @@
+codecs
+binascii
+BytesIO
+uu_encode
+uu_decode
+Codec
+IncrementalEncoder
+IncrementalDecoder
+StreamWriter
+StreamReader
+getregentry

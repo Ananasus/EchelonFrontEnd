@@ -1,0 +1,16 @@
+_imp
+SOURCE_SUFFIXES
+DEBUG_BYTECODE_SUFFIXES
+OPTIMIZED_BYTECODE_SUFFIXES
+BYTECODE_SUFFIXES
+EXTENSION_SUFFIXES
+ModuleSpec
+BuiltinImporter
+FrozenImporter
+WindowsRegistryFinder
+PathFinder
+FileFinder
+SourceFileLoader
+SourcelessFileLoader
+ExtensionFileLoader
+all_suffixes

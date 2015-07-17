@@ -8,7 +8,7 @@ def connect_to_redis():
     password = '1233'
     port = 11281 
     db_no = 0
-    redis_connection = redis.StrictRedis('pub-redis-11281.us-east-1-4.5.ec2.garantiadata.com', port, db_no, password, 90, 10, True)
+    redis_connection = redis.StrictRedis('pub-redis-11281.us-east-1-4.5.ec2.garantiadata.com', port, db_no, password, 90, 10, True, decode_responses=True)
     return redis_connection
 
 
@@ -33,7 +33,6 @@ def request_most_recent_data(last_known):
     scan_result = r.scan(0, "events_recent*", 100)
     if(len(scan_result[1])>0):
         result = scan_result[1]
-        str(result[1:])
         result.sort(reverse=True)
         position = -1
         recent_keys = []
@@ -48,7 +47,12 @@ def request_most_recent_data(last_known):
             recent_keys = result[0:position]
         for key in recent_keys:
             recent += r.lrange(key, 0, -1)
-    return [ recent_keys[0] , recent ]
+        result = [ ]
+        if(len(recent_keys)>0):
+            result = [ recent_keys[0] , recent ]
+        else:
+            result = [ last_known , recent ]
+    return result
 
 
 
