@@ -4,6 +4,7 @@ var working = false;
 var last_known_id = "_none_";
 var events;
 var scope = undefined;
+var _sending_request = false;
 //ANGULARJS Controllers
 
 
@@ -23,37 +24,46 @@ function AppendEventData(data){
 }
 
 function SendRequest(){
-	console.log("Sending request...");
-	$.ajax({
-		url : "get_recent/", // the endpoint
-		type : "POST", // http method
-		data : JSON.stringify({ 'last_known_id':last_known_id }), // data sent with the post request
-		dataType: "json",
-		// handle a successful response
-		success : function(json) {
-			last_known_id = json.last_known_id;
-			if(json.data.length > 0) {
-				AppendEventData(json.data);
-			}
 
-			console.log(json); // log the returned json to the console
-			console.log("success"); // another sanity check
-		},
-
-		// handle a non-successful response
-		error : function(xhr,errmsg,err) {
-			var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
-				" <span class='close'>&times;</span></div>");
-			$('.close',el).click(
-				function(){
-					$(this).parent().remove();
-
+	if(_sending_request == false) {
+		console.log("Sending request...");
+		_sending_request = true;
+		$.ajax({
+			url : "get_recent/", // the endpoint
+			type : "POST", // http method
+			data : JSON.stringify({ 'last_known_id':last_known_id }), // data sent with the post request
+			dataType: "json",
+			// handle a successful response
+			success : function(json) {
+				last_known_id = json.last_known_id;
+				if(json.data.length > 0) {
+					AppendEventData(json.data);
 				}
-			);
 
-			console.log('OLOLOLO: '+err); // provide a bit more info about the error to the console
-		}
-	})
+				console.log(json); // log the returned json to the console
+				console.log("success"); // another sanity check
+				_sending_request = false;
+			},
+
+			// handle a non-successful response
+			error : function(xhr,errmsg,err) {
+				var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
+					" <span class='close'>&times;</span></div>");
+				$('.close',el).click(
+					function(){
+						$(this).parent().remove();
+
+					}
+				);
+				_sending_request = false;
+				console.log('OLOLOLO: '+err); // provide a bit more info about the error to the console
+			}
+		})
+
+	}
+	else
+		console.warn("[WARN] Request Already Sent. Waiting for response...");
+
 }
 
 
