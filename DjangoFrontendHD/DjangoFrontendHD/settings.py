@@ -14,8 +14,6 @@ ALLOWED_HOSTS = (
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
-    ('PineApple', 'pine@ananse.com'),
-    ('Banana', 'banana@ananase.com'),
 )
 
 MANAGERS = ADMINS
@@ -93,6 +91,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'djangular.finders.NamespacedAngularAppDirectoriesFinder',
 )
 
 # Make this unique, and don't share it with anybody.
@@ -135,7 +134,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'syncdb',
-    'djangular'
+    'djangular',
+    
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

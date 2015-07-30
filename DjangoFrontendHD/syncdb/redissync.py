@@ -4,16 +4,14 @@ import json
 import random
 import time
 
+
+#   Get a time at a proportion of a range of two formatted times.
+#    start and end should be strings specifying times formated in the
+#    given format (strftime-style), giving an interval [start, end].
+#    prop specifies how a proportion of the interval to be taken after
+#    start.  The returned time will be in the specified format.
 def strTimeProp(start:float, end:float, format:str, prop:float):
-    """Get a time at a proportion of a range of two formatted times.
-
-    start and end should be strings specifying times formated in the
-    given format (strftime-style), giving an interval [start, end].
-    prop specifies how a proportion of the interval to be taken after
-    start.  The returned time will be in the specified format.
-    """
-
-
+   
     ptime = min(start,end) + prop * abs((end - start))
 
     return ptime
@@ -50,16 +48,10 @@ def data_gen(number_of:int,str_prefix:str):
         r.hmset(name, { 'sid': random.getrandbits(128).__str__(), 'uid': uid, 'desc': "Just some random text #"+random.randint(0,2*number_of) .__str__(), 'type':random.choice(["wrn","log","err"]) })
         dates += [randomDate(time.time()-5, time.time()+5), name]
     r.zadd("dates", *dates);    
-    #if(result == number_of):
-    #    print('OK. SET IS FROM')
-    #else:
-    #    print('FAIL. SET IS FROM')
-    #    print(result)
-    #    return 1
-    #return 0
+
     return 0
 
-def request_most_recent_data(last_known):
+def request_most_recent_data(last_known:str, max_events:int):
     r = connect_to_redis()
     rank = r.zrevrank("dates",last_known)
     hashes_to_fetch = []
@@ -79,42 +71,3 @@ def request_most_recent_data(last_known):
     else:
         result = [ last_known, recent ]
     return result
-    #scan_result = r.scan(0, "events_recent*", 100)
-    #if(len(scan_result[1])>0):
-    #    result = scan_result[1]
-    #    result.sort(reverse=True)
-    #    position = -1
-    #    recent_keys = []
-    #    recent = []
-    #    try:
-    #        position = result.index(last_known)
-    #    except:
-    #        pass
-    #    if(position==-1):
-    #        recent_keys = result
-    #    else:
-    #        recent_keys = result[0:position]
-    #    for key in recent_keys:
-    #        recent += r.lrange(key, 0, -1)
-    #    result = [ ]
-    #    if(len(recent_keys)>0):
-    #        result = [ recent_keys[0] , recent ]
-    #    else:
-    #        result = [ last_known , recent ]
-    #return result
-
-
-
-
-def request_data():
-    r = connect_to_redis()
-    #parse arguments
-
-    
-    result = r.get("ololo")
-    if(result == True):
-        print('OK. SET IS FROM')
-    else:
-        print('ConnectionError set failed')
-        return 1
-    return 0

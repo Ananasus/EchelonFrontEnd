@@ -13,3 +13,18 @@ C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\obj
 C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\ptvs_virtualenv_proxy.py
 C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\obj\Debug\web.config
 C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\obj\Debug\web.debug.config
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\attach_server.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\visualstudio_py_repl.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\visualstudio_py_util.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\__init__.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\__main__.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\bin\AzureSetup.cfg
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\bin\wfastcgi.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\deployment-updated-orig-prefix.txt
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\ptvs_virtualenv_proxy.py
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\web.config
+C:\Users\Raaw\Source\Repos\EchelonFrontEnd\DjangoFrontendHD\obj\Debug\web.debug.config

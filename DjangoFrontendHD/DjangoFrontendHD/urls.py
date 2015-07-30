@@ -34,7 +34,9 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
-    url(r'^get_recent', 'syncdb.views.get_recent', name='recents')
+    url(r'^api/get_recent', 'syncdb.views.get_recent', name='recents'),
+    url(r'^api/gen_data', 'syncdb.views.gen_data', name='gen'),
+    url(r'^api/get_load', 'syncdb.views.get_load', name='loadaverage')
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
