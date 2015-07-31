@@ -1,5 +1,3 @@
-var intervaled_timer;
-var csrftoken;
 var working = false;
 var events;
 var scope = undefined;
@@ -7,16 +5,74 @@ var _sending_request = false;
 
 //Get Recent Setup
 var RecentInterval = 5000,
-	RecentMax = 100,
+	GenDataInterval = 3*RecentInterval,
+	RecentMax = 30,
 	LastKnownId = "_none_",
+	GenDataSend = {"gen_count":1000},
 	DataSend = {"max_events":RecentMax,"last_known_id":LastKnownId};
 
 
 var GenDataRequest = null, GetRecentRequest = null;
+var GenDataButton = null, GetRecentButton = null;
 
-//ANGULARJS Controllers
 
 
+
+
+function ButtonToggler(Target, InitialState, OnDisable, OnEnable, InitialUpdate, DisabledHTML, EnabledHTML, Data) {
+	var __enabled = false;
+
+
+	this.EnabledHTML = EnabledHTML;
+	this.DisabledHTML = DisabledHTML;
+	this.OnEnable = OnEnable;
+	this.OnDisable = OnDisable;
+	this.Target = Target;
+	this.Data = (Data!=null&&Data!=undefined)?Data:null
+
+	function __init__(o, target){
+		if(InitialUpdate) {
+			__enabled = !InitialState;
+			o.toggle();
+		}
+		else
+			__enabled = InitialState;
+
+		$(target).click(function (){
+			o.toggle();
+		});
+
+	}
+
+
+	this.toggle = function toggle(){
+			if(__enabled)
+				this.disable();
+			else
+				this.enable();
+		};
+
+	this.enable = function enable(){
+		if(!__enabled){
+			if(this.EnabledHTML!=undefined && this.EnabledHTML!=null)
+				$(this.Target).html(this.EnabledHTML);
+			this.OnEnable(this);
+		}
+		__enabled = !__enabled;
+	};
+
+	this.disable = function disable(){
+		if(__enabled){
+			if(this.DisabledHTML!=undefined && this.DisabledHTML!=null)
+				$(this.Target).html(this.DisabledHTML);
+			this.OnDisable(this);
+		}
+		__enabled = !__enabled;
+	};
+
+	__init__(this, this.Target);
+
+}
 
 function AJAXRequest(Url, BeforeSendInject, OnReceiveInject, OnErrorInject, Data, TimerInterval, EnableTimer, WaitResponse) {
 
@@ -39,8 +95,10 @@ function AJAXRequest(Url, BeforeSendInject, OnReceiveInject, OnErrorInject, Data
 			success: function(json){
 				console.log("Receive response for url:\""+tar.Url+"\" successfully.");
 				__sent = false;
+				console.log(json);
 				if(tar.OnReceiveInject != null && tar.OnReceiveInject != undefined)
 					tar.OnReceiveInject(tar,json);
+
 			},
 			error: function(xhr,errmsg,err) {
 				var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
@@ -75,12 +133,13 @@ function AJAXRequest(Url, BeforeSendInject, OnReceiveInject, OnErrorInject, Data
 	};
 
 	var obj = this;
-	var __timer = EnableTimer?setInterval(function(){ obj.send(); }, TimerInterval):null;
+	var __timer = EnableTimer?setInterval(function(){ obj.send.call(obj) }, TimerInterval):null;
 	var __csrf = csrftoken = $.cookie('csrftoken');
 
 	this.start = function start() {
 		if(__timer == null) {
-			__timer = setInterval(function() {this.send(); }, this.TimerInterval);
+			obj = this;
+			__timer = setInterval(function() {obj.send.call(obj); }, this.TimerInterval);
 
 		}
 	};
@@ -102,10 +161,7 @@ function AJAXRequest(Url, BeforeSendInject, OnReceiveInject, OnErrorInject, Data
 };
 
 
-ButtonController = new function(ButtonTarget, InitialState, OnEnable, OnDisable){
-
-}
-
+//CHECK IF METHOD IS CSRF COOKIE FREE
 function csrfSafeMethod(method) {
     // these HTTP methods do not require CSRF protection
     return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
@@ -120,85 +176,49 @@ function AppendEventData(data){
 	scope.$digest();
 }
 
-function SendRequest(){
+function LoadEventInfo(tar){
 
-	if(_sending_request == false) {
-		console.log("Sending request...");
-		_sending_request = true;
-		$.ajax({
-			url : "get_recent/", // the endpoint
-			type : "POST", // http method
-			data : JSON.stringify({ 'last_known_id':last_known_id }), // data sent with the post request
-			dataType: "json",
-			// handle a successful response
-			success : function(json) {
-				last_known_id = json.last_known_id;
-				if(json.data.length > 0) {
-					AppendEventData(json.data);
-				}
 
-				console.log(json); // log the returned json to the console
-				console.log("success"); // another sanity check
-				_sending_request = false;
-			},
-
-			// handle a non-successful response
-			error : function(xhr,errmsg,err) {
-				var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
-					" <span class='close'>&times;</span></div>");
-				$('.close',el).click(
-					function(){
-						$(this).parent().remove();
-
-					}
-				);
-				_sending_request = false;
-				console.log('OLOLOLO: '+err); // provide a bit more info about the error to the console
-			}
-		})
-
-	}
-	else
-		console.warn("[WARN] Request Already Sent. Waiting for response...");
 
 }
 
-
-function ToggleSyncing(object){
-	if(object == undefined)
-		object = this;
-	if(working) {
-		$(object).html('Start Sync');
-		window.clearInterval(intervaled_timer);
-	}
-	else {
-		intervaled_timer = setInterval(function() { SendRequest() },5000);
-		$(object).html('Stop Sync');
-	}
-	working = !working;
-}
-
-function ToggleSyncingClick(){
-	ToggleSyncing(this);
-}
 ///MAIN FUNCTION
 $(document).ready( function(){
-	//csrftoken = $.cookie('csrftoken');
-	//$.ajaxSetup({
-    	//beforeSend: function(xhr, settings) {
-     //   	if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
-     //       	xhr.setRequestHeader("X-CSRFToken", csrftoken);
-     //   	}
-    	//}
-	//});
-	//var btn = $('#sync_db_button');
-	//ToggleSyncing(btn);
-	//btn.click(ToggleSyncingClick)
 
-	GetRecentRequest = new AJAXRequest("api/get_recent", null, null, null, DataSend, RecentInterval, true, true);
+	GetRecentRequest = new AJAXRequest("api/get_recent", null, function (tar, json){
+		DataSend.last_known_id = json.last_known_id;
+		AppendEventData(json.data);
+		
+	}, null, DataSend, RecentInterval, false, true);
+	GetRecentButton = new ButtonToggler($("#sync_db_button"),true,
+		function() {
+			GetRecentRequest.stop.call(GetRecentRequest);
+		},
+		function(){
+			GetRecentRequest.start.call(GetRecentRequest);
+		},true,"Start Sync","Stop Sync",null);
 
+	GenDataRequest = new AJAXRequest('api/gen_data',null,
+		function(tar, json) {
 
+		}, null, GenDataSend, GenDataInterval, false, true);
+	GenDataButton = new ButtonToggler("#gen_db_button",false,
+	function(){
+		var s = $(GenDataButton.Target).html().replace("Stop","Start");
+		$(GenDataButton.Target).empty().append(s);
+		GenDataRequest.stop.call(GenDataRequest);
+	},
+	function(){
+		var s = $(GenDataButton.Target).html().replace("Start","Stop");
+		$(GenDataButton.Target).empty().append(s);
+		GenDataRequest.start.call(GenDataRequest);
+	}, false, null, null, null);
+	//we will make togllable button's tooltip
+	$('[data-toggle="tooltip"]').tooltip();
 });
+
+
+
 
 angular.module('RedisSync', [])
 	.controller('RedisDbSyncSetup', function($scope) {

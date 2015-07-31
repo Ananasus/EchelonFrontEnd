@@ -4,19 +4,92 @@ Definition of models.
 from django.db import models
 import json
 # Create your models here.
+
+#   Get a time at a proportion of a range of two formatted times.
+#    start and end should be strings specifying times formated in the
+#    given format (strftime-style), giving an interval [start, end].
+#    prop specifies how a proportion of the interval to be taken after
+#    start.  The returned time will be in the specified format.
+def strTimeProp(start, end, format, prop):
+   
+    ptime = min(start,end) + prop * abs((end - start))
+
+    return ptime
+
+
+def randomDate(start, end):
+    return strTimeProp(start, end, "%Y %m %d %H:%M:%S", round(random.uniform(0, 1),3))
+
+
+
+#Event class containing basic events
 class Event(models.Model):
     uid = models.BigIntegerField,
     sid = models.BigIntegerField,
-    alert_class = models.CharField,
-    description = models.TextField,
+    type = models.TextField,
+    desc = models.TextField,
+    originid = models.BigIntegerField,
+    name = models.TextField,
+    time = models.DateField,
+    EVENT_PREFIX = "event:"
     def __str__(self):
         return "[ Security Event: UID: "+self.uid.__str__()+" SID: "+self.sid.__str__()+" Alert Class: "+self.alert_class+" Description: "+self.description+" ]"
-    def __init__(self, uid, sid, alert_class, description):
-        self.alert_class = alert_class
+    def __init__(self, uid, sid, name, type, desc, originid, time):
+        self.type = type
+        self.name = name
         self.uid = uid
-        self.description = description
+        self.desc = desc
         self.sid = sid
+        self.time = time
+        self.originid = originid
+        self.time = time
     def serialize(self):
         return json.dumps(self.__dict__)
     def deserialize(self, data):
         self.__dict__ = json.loads(data)
+    #generates random event with data. For debugging only
+    def _debug_gen(seed):
+        uid = random.getrandbits(128).__str__()
+        sid = random.getrandbits(128).__str__()
+        name = STRING_PREFIX+uid
+        originid = random.getrandbits(128).__str__()
+        desc = "Just some random text #"+random.randint(0,2*seed) .__str__()
+        type = random.choice(["wrn","log","err"])
+        time = strTimeProp(time.time(),time.time()-5, round(random.uniform(0,1),3))
+
+        event = Event(uid, sid, name, type, desc, originid, time)
+        return event
+
+
+
+#Load Average Class, containg all the necessary fields for holding system load
+class LoadAverage():
+    cpload = models.IntegerField,
+    memloaded = models.IntegerField,
+    memtotal = models.IntegerField,
+    diskloaded = models.IntegerField,
+    disktotal = models.IntegerField,
+    diskwriteop = models.IntegerField,
+    diskreadop = models.IntegerField,
+    time = models.DateField,
+    def __str__(self):
+        return "[ LoadAverage ( "+self.time.__str__()+" ): CPLOAD="+self.cpload.__str__()+", MEMLOAD="+self.memloaded.__str__()+"/"+self.memtotal.__str__()\
+            +", DISKLOAD="+self.diskloaded.__str__()+"/"+self.disktotal.__str__()+" ( "+self.diskreadop.__str__()+"% read "+self.diskwriteop.__str__()+"% write"+" )"
+    def __init__(self,cpl,meml,memt,diskl,diskt,diskr,diskw,time):
+        self.cpload = cpl
+        self.memload = meml
+        self.memtotal = memt
+        self.disktotal = diskt
+        self.diskloaded = diskl
+        self.diskread = diskr
+        self.diskwrite = diskw
+        self.time = time
+
+
+    def serialize(self):
+        return json.dumps(self.__dict__)
+    def deserialize(self, data):
+        self.__dict__ = json.loads(data)
+    def _debug_gen():
+        event = Event()
+        return event

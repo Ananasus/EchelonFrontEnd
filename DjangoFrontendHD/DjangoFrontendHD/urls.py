@@ -4,6 +4,8 @@ Definition of urls for DjangoFrontendHD.
 
 from datetime import datetime
 from django.conf.urls import patterns, url
+from django.conf.urls.static import static
+from django.conf import settings
 from syncdb.forms import BootstrapAuthenticationForm
 
 # Uncomment the next lines to enable the admin:
@@ -19,7 +21,7 @@ urlpatterns = patterns('',
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
-            'template_name': 'syncdb/login.html',
+            'template_name': 'app/login.html',
             'authentication_form': BootstrapAuthenticationForm,
             'extra_context':
             {
@@ -35,11 +37,12 @@ urlpatterns = patterns('',
         },
         name='logout'),
     url(r'^api/get_recent', 'syncdb.views.get_recent', name='recents'),
-    url(r'^api/gen_data', 'syncdb.views.gen_data', name='gen'),
-    url(r'^api/get_load', 'syncdb.views.get_load', name='loadaverage')
+    url(r'^api/gen_data', 'syncdb.views.gen_data', name='gendata'),
+    url(r'^api/get_load', 'syncdb.views.get_load', name='loadaverage'),
+    url(r'^api/get_event', 'syncdb.views.get_event', name='eventget')
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-)
+) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

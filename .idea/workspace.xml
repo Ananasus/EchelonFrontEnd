@@ -1,254 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" line="79" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f15a9276-c40a-434b-8ef1-96226ba8d83d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.models.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.models.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.templatetags.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.templatetags.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.templatetags.verbatim.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_django_verbatim\django_verbatim.templatetags.verbatim.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._packer.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._packer.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._unpacker.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._unpacker.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._version.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack._version.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.exceptions.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.exceptions.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.fallback.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.fallback.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_msgpack\msgpack.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.compat.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.compat.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.decoder.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.decoder.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.encoder.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.encoder.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.ordered_dict.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.ordered_dict.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.scanner.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.scanner.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_bigint_as_string.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_bigint_as_string.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_bitsize_int_as_string.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_bitsize_int_as_string.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_check_circular.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_check_circular.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_decimal.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_decimal.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_decode.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_decode.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_default.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_default.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_dump.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_dump.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_encode_basestring_ascii.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_encode_basestring_ascii.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_encode_for_html.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_encode_for_html.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_errors.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_errors.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_fail.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_fail.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_float.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_float.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_for_json.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_for_json.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_indent.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_indent.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_item_sort_key.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_item_sort_key.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_namedtuple.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_namedtuple.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass1.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass1.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass2.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass2.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass3.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_pass3.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_recursion.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_recursion.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_scanstring.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_scanstring.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_separators.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_separators.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_speedups.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_speedups.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_subclass.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_subclass.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_tool.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_tool.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_tuple.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_tuple.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_unicode.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tests.test_unicode.idb.$memlist" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tool.idb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\Echelon\.ptvs\site-packages_simplejson\simplejson.tool.idb.$memlist" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_ast.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_ast.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_bisect.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_bisect.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_cn.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_cn.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_hk.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_hk.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_iso2022.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_iso2022.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_jp.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_jp.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_kr.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_kr.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_tw.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_tw.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_collections.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_collections.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_csv.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_csv.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_datetime.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_datetime.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_functools.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_functools.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_heapq.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_heapq.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_imp.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_imp.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_io.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_io.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_json.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_json.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_locale.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_locale.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_lsprof.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_lsprof.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_md5.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_md5.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_multibytecodec.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_multibytecodec.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_opcode.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_opcode.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_operator.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_operator.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_pickle.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_pickle.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_random.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_random.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha1.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha1.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha256.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha256.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha512.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha512.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sre.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sre.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_stat.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_stat.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_string.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_string.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_struct.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_struct.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_symtable.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_symtable.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_thread.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_thread.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_tracemalloc.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_tracemalloc.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_warnings.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_warnings.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_weakref.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_weakref.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_winapi.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_winapi.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/array.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/array.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/atexit.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/atexit.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/audioop.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/audioop.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/binascii.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/binascii.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/builtins.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/builtins.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/cmath.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/cmath.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/django-admin.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/django-admin.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.forms.widgets.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.forms.widgets.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.middleware.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.middleware.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.styling.bootstrap3.widgets.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.styling.bootstrap3.widgets.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.views.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.views.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/easy_install-3.4.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/easy_install-3.4.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/easy_install.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/easy_install.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/errno.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/errno.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/faulthandler.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/faulthandler.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/gc.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/gc.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/itertools.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/itertools.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/marshal.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/marshal.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/math.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/math.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/mmap.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/mmap.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/msvcrt.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/msvcrt.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/nt.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/nt.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/parser.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/parser.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip3.4.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip3.4.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip3.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/pip3.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/signal.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/signal.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/sys.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/sys.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/tempfile.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/tempfile.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/time.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/time.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/wheel.exe" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/wheel.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/winreg.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/winreg.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/xxsubtype.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/xxsubtype.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zipimport.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zipimport.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zlib.idb" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zlib.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/AnalysisLog.txt" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/AnalysisLog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/DjangoFrontendHD.pyproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/DjangoFrontendHD.pyproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echelon.v12.suo" afterPath="$PROJECT_DIR$/Echelon.v12.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/bin/AzureSetup.cfg" afterPath="$PROJECT_DIR$/DjangoFrontendHD/bin/AzureSetup.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD.pyproj" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD.pyproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_ast.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_ast.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_bisect.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_bisect.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_cn.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_cn.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_hk.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_hk.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_iso2022.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_iso2022.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_jp.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_jp.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_kr.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_kr.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_tw.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_codecs_tw.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_collections.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_collections.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_csv.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_csv.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_datetime.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_datetime.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_functools.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_functools.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_heapq.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_heapq.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_imp.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_imp.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_io.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_io.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_json.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_json.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_locale.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_locale.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_lsprof.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_lsprof.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_md5.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_md5.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_multibytecodec.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_multibytecodec.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_opcode.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_opcode.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_operator.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_operator.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_pickle.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_pickle.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_random.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_random.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha1.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha1.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha256.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha256.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha512.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sha512.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sre.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_sre.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_stat.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_stat.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_string.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_string.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_struct.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_struct.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_symtable.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_symtable.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_thread.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_thread.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_tracemalloc.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_tracemalloc.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_warnings.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_warnings.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_weakref.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_weakref.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_winapi.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/_winapi.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/activate" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/activate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/activate_this.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/activate_this.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/array.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/array.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/atexit.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/atexit.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/audioop.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/audioop.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/binascii.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/binascii.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/builtins.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/builtins.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/cmath.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/cmath.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/deactivate.bat" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/deactivate.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/django-admin.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/Scripts/django-admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.views.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/site-packages_djangular/djangular.views.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/errno.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/errno.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/faulthandler.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/faulthandler.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/gc.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/gc.idb.$memlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.css" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.min.css" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/deployment-updated-orig-prefix.txt" afterPath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/deployment-updated-orig-prefix.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/itertools.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/itertools.idb.$memlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/manage.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/marshal.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/marshal.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/math.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/math.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/mmap.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/mmap.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/msvcrt.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/msvcrt.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/nt.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/nt.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/parser.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/parser.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/pip-selfcheck.json" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/models.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/redissync.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/redissync.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/settings.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/signal.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/signal.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/sys.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/sys.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/time.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/time.idb.$memlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/urls.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/views.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/web.config" afterPath="$PROJECT_DIR$/DjangoFrontendHD/web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/web.config" afterPath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/web.debug.config" afterPath="$PROJECT_DIR$/DjangoFrontendHD/web.debug.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/web.debug.config" afterPath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/web.debug.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/winreg.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/winreg.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/xxsubtype.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/xxsubtype.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zipimport.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zipimport.idb.$memlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zlib.idb.$memlist" afterPath="$PROJECT_DIR$/DjangoFrontendHD/Echelon/.ptvs/zlib.idb.$memlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Echelon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -272,9 +54,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.19406393">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding />
+            <state vertical-scroll-proportion="0.28196347">
+              <caret line="201" column="29" selection-start-line="201" selection-start-column="29" selection-end-line="201" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,8 +66,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.73077">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index_dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3461537">
+              <caret line="443" column="38" selection-start-line="443" selection-start-column="38" selection-end-line="443" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -297,6 +105,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" />
         <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" />
       </list>
     </option>
@@ -336,8 +147,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,74 +248,21 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Echelon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Echelon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoFrontendHD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syncdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Echelon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Echelon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoFrontendHD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syncdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\syncdb\static\app\fonts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -539,10 +295,19 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f15a9276-c40a-434b-8ef1-96226ba8d83d" name="Default" comment="" />
@@ -553,37 +318,88 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="1920" height="1040" extended-state="1" />
+    <frame x="0" y="40" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -591,11 +407,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/blank-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.5">
+          <caret line="223" column="10" selection-start-line="33" selection-start-column="4" selection-end-line="223" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+          <folding>
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3461537">
+          <caret line="443" column="38" selection-start-line="443" selection-start-column="38" selection-end-line="443" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.73077">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.19406393">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.28196347">
+          <caret line="201" column="29" selection-start-line="201" selection-start-column="29" selection-end-line="201" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

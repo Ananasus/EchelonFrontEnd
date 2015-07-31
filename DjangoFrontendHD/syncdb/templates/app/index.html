@@ -3,44 +3,55 @@
 {% block content %}
 {% load djangular_tags %}
 <script type="text/javascript" src="{% static 'app/scripts/main.js' %}" ></script>
-<div class="jumbotron">
-    <h1>Redis Recent Events Dashboard</h1>
-    <p class="lead">Lorem Ipsum Dolor</p>
-    <p><span class="btn btn-large btn-warning" id="sync_db_button">Start Sync</span></p>
-</div>
-<!-- This row is for scripts output-->
-{% angularjs %}
-<div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup">
-    <p class="description">
-        <table class="table-responsive" id="events_output">
-            <th>Event UID</th>
-            <th>Event SID</th>
-            <th>Event Description</th>
-            <th>Event Alert Type</th>
-            <tr class="table-bordered" id="event_output_template" ng-repeat="event in events">
-                <td>{{event.uid}}</td>
-                <td>{{event.sid}}</td>
-                <td>{{event.desc}}</td>
-                <td>{{event.type}}</td>
-            </tr>
-
-        </table>
-
-</div>
 
 
-<div class="row" style="width: 600px">
-    <div class="col-md-8" style="width: 50vw">
+<div id="angularjs_wrapper" ng-app="RedisSync">
+    {% angularjs %}
+    <div class="jumbotron">
+        <h1 ng-controller="RedisDbSyncSetup">Events Overview</h1>
+        <p class="lead">Recent Events:</p>
+
+
+        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_db_button" data-toggle="tooltip" title="Just For Debugging Purposes Only."><span class="glyphicon glyphicon-alert"></span> Start Gen Data</span> </p>
+        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_db_button">Start Sync</span></p>
+    </div>
+    {% endangularjs %}
+
+    <!-- This row is for scripts output-->
+    {% angularjs %}
+    <div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup" style="overflow: auto">
+            <table class="table-responsive table-hover container table-bordered" id="events_output" style="overflow: auto">
+                <th>Event UID</th>
+                <th>Event SID</th>
+                <th>Event Description</th>
+                <th>Event Alert Type</th>
+                <tr onclick="LoadEventInfo" id="event_output_template" ng-repeat="event in events" style="cursor: pointer" class="table-bordered?{ warning: (event.type == 'wrn'), danger: (event.type == 'err')}" >
+                    <td>{{event.uid}}</td>
+                    <td>{{event.sid}}</td>
+                    <td>{{event.desc}}</td>
+                    <td>{{event.type}}</td>
+                </tr>
+
+            </table>
+    </div>
+
+
+    <div class="jumbotron">
         <h2>Output log</h2>
-        <p id="table_content">
+        <div>
             <table>
                 <tr>
 
                 </tr>
             </table>
+        </div>
+
     </div>
-    
+    {% endangularjs %}
+
+
 </div>
-{% endangularjs %}
+
+
 
 {% endblock %}
