@@ -1,6 +1,8 @@
 """
 Definition of models.
 """
+import random
+import datetime
 from django.db import models
 import json
 # Create your models here.
@@ -65,17 +67,19 @@ class Event(models.Model):
 #Load Average Class, containg all the necessary fields for holding system load
 class LoadAverage():
     cpload = models.IntegerField,
-    memloaded = models.IntegerField,
-    memtotal = models.IntegerField,
-    diskloaded = models.IntegerField,
-    disktotal = models.IntegerField,
-    diskwriteop = models.IntegerField,
-    diskreadop = models.IntegerField,
-    time = models.DateField,
+    memloaded = models.BigIntegerField,
+    memtotal = models.BigIntegerField,
+    diskloaded = models.BigIntegerField,
+    disktotal = models.BigIntegerField
+    diskwrite = models.IntegerField,
+    diskread = models.IntegerField,
+    time = models.TextField,
+    connections = models.IntegerField
+
     def __str__(self):
         return "[ LoadAverage ( "+self.time.__str__()+" ): CPLOAD="+self.cpload.__str__()+", MEMLOAD="+self.memloaded.__str__()+"/"+self.memtotal.__str__()\
             +", DISKLOAD="+self.diskloaded.__str__()+"/"+self.disktotal.__str__()+" ( "+self.diskreadop.__str__()+"% read "+self.diskwriteop.__str__()+"% write"+" )"
-    def __init__(self,cpl,meml,memt,diskl,diskt,diskr,diskw,time):
+    def __init__(self,cpl,meml,memt,diskl,diskt,diskr,diskw,time,connections):
         self.cpload = cpl
         self.memload = meml
         self.memtotal = memt
@@ -84,6 +88,7 @@ class LoadAverage():
         self.diskread = diskr
         self.diskwrite = diskw
         self.time = time
+        self.connections = connections
 
 
     def serialize(self):
@@ -91,5 +96,32 @@ class LoadAverage():
     def deserialize(self, data):
         self.__dict__ = json.loads(data)
     def _debug_gen():
-        event = Event()
-        return event
+        MAX_MEMORY = 1024*1024*1024*16 # 16 GB
+        MAX_DISK = 1024*1024*1024*1024 # 1 TB
+        MAX_CONNECTIONS = 1024
+        MAX_WRITE = 1024*1024*1024 #1 GB
+        MAX_READ = 1024*1024*1024*3 #3 GB
+
+        
+
+        cpload = random.randint(1,100)
+        memloaded = random.randint(1,MAX_MEMORY)
+        memtotal = random.randint(memloaded, MAX_MEMORY)
+        diskloaded = random.randint(1, MAX_DISK)
+        disktotal = random.randint(diskloaded, MAX_DISK)
+        diskread = random.randint(1, MAX_READ)
+        diskwrite = random.randint(1, MAX_WRITE)
+        time = datetime.datetime.now()
+        dthandler = lambda obj: (
+             obj.isoformat()
+             if isinstance(obj, datetime.datetime)
+             or isinstance(obj, datetime.date)
+             else None)
+
+        time = json.dumps(datetime.datetime.now(), default=dthandler)
+        connections = random.randint(1, MAX_CONNECTIONS)    
+
+        load = LoadAverage(cpload,memloaded,memtotal,diskloaded,disktotal,diskread,diskwrite,time,connections)
+        
+
+        return load

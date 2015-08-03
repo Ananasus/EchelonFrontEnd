@@ -3,6 +3,11 @@ var events;
 var scope = undefined;
 var _sending_request = false;
 
+var Events = {
+	ExpandedInfo: []
+
+};
+
 //Get Recent Setup
 var RecentInterval = 5000,
 	GenDataInterval = 3*RecentInterval,
@@ -101,8 +106,8 @@ function AJAXRequest(Url, BeforeSendInject, OnReceiveInject, OnErrorInject, Data
 
 			},
 			error: function(xhr,errmsg,err) {
-				var el = $('#table_content').append("<div class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
-					" <span class='close'>&times;</span></div>");
+				var el = $('#error_table-content').append("<tr class='alert-box alert radius' data-alert id='error_msg_django_redis'>Oops! We have encountered an error: "+errmsg+"   "+err+
+					" <span class='close'>&times;</span></tr>");
 				$('.close',el).click(
 					function(){
 						$(this).parent().remove();
@@ -172,11 +177,166 @@ function AppendEventData(data){
 		obj = jQuery.parseJSON(data[i]);
 		events.unshift(obj);
 	}
+	if(events.length>RecentMax)
+		events.splice(RecentMax);
 	//update bindings
 	scope.$digest();
 }
 
-function LoadEventInfo(tar){
+function ToggleEventInfo(tar){
+	/*КОСТЫЛЬ*
+	/ Находим ивент по uid
+	 */
+	var tt = $(tar);
+	var uid = tt.children("#uid").text();
+	var f = null
+	for(i in events){
+		if(events[i].uid == uid) {
+			f = events[i];
+			break;
+		}
+
+	}
+	if(f!=null){
+		var exp = tt.next();
+		if(exp.hasClass("collapse")){
+			var info_object = $.grep(Events.ExpandedInfo, function(e){ return e.uid === uid; });
+			info_object = info_object[0];
+			if(info_object == null || info_object == undefined) {
+				info_object = {
+					loaded:false,
+					uid:uid,
+					error:false,
+					target:exp,
+					event:f,
+					error_object:null,
+					ajax_request: new AJAXRequest("api/get_event",
+						null,
+						function (tar, json) {
+							info_object.error = false;
+							info_object.loaded = true;
+							//update values
+							json = jQuery.parseJSON(json.data);
+							info_object.event.desc = json.desc;
+							info_object.event.sid = json.sid;
+							info_object.event.desc = json.desc;
+							info_object.event.name = json.name;
+							info_object.event.origin = json.origin!=undefined?json.origin:"Unknown";
+							info_object.event.date = json.date!=undefined?json.date:"Unknown";
+							info_object.event.type = json.type;
+							scope.$digest();
+							//update visuals
+							if(!info_object.target.hasClass("collapse")){
+								//show muthafuckas
+								$(exp).find("#loading").hide();
+								$(exp).find("#error").hide();
+								$(exp).find("#ulfull").show();
+							}
+						},
+						function (xhr,err) {
+							info_object.error = true;
+							info_object.loaded = true;
+							info_object.error_object = err;
+							exp.find("#error").html("Error occured during loading: "+err.toString());
+							if(!info_object.target.hasClass("collapse")){
+								//show muthafuckas
+								$(exp).find("#loading").hide();
+								$(exp).find("#error").show();
+								$(exp).find("#ulfull").hide();
+							}
+						}, {"event_hashname": f.name})
+				};
+				Events.ExpandedInfo.push(info_object);
+
+				$(exp).find("#loading").show();
+				$(exp).find("#error").hide();
+				$(exp).find("#ulfull").hide();
+				info_object.ajax_request.send();
+			}
+			else {
+				//if not loaded yet
+				if(info_object.loaded === false){
+					$(exp).find("#loading").show();
+					$(exp).find("#error").hide();
+					$(exp).find("#ulfull").hide()
+				}
+				//if loaded successfully
+				else if(info_object.error === false){
+					$(exp).find("#loading").hide();
+					$(exp).find("#error").hide();
+					$(exp).find("#ulfull").show();
+					var e = exp.find("#error");
+				}
+				//if load failed
+				else {
+					$(exp).find("#loading").show();
+					$(exp).find("#ulfull").hide();
+					$(exp).find("#error").show();
+				}
+			}
+
+			exp.removeClass("collapse");
+		}
+		else {
+			exp.addClass("collapse");
+		}
+
+
+	}
+	/*
+	if(f!=null) {
+		//toggle visibility
+		var exp = $(tar).children("#expandview");
+		if(exp.length >0){
+			exp = $(exp[0]);
+			if(exp.hasClass("collapse")){
+				//expand
+				exp.removeClass("collapse");
+			}
+			else {
+				//if not sent (probably because of error)
+				if(!f.sent_request){
+					exp.children("#errorview").addClass("collapse");
+				}
+
+				exp.addClass("collapse");
+			}
+		}
+		else {
+			$(tar).append('<ul id="expandview"><li id="loadingview">Loading...</li><li class="alert-danger collapse" id="errorview">Error When Loading</li></ul>')
+		}
+
+		if(!f.sent_request) {
+			new AJAXRequest("api/get_event",
+				function () {
+					var ld = $(tar).children("#loadingview");
+					ld.removeClass("collapse");
+
+
+				},
+				function (tar, json) {
+					var ld = $(tar).children("#loadingview");
+					ld.addClass("collapse");
+
+					alert("Received!");
+				},
+				function () {
+					f.sent_request = false;
+
+					var ld = $(tar).children("#loadingview");
+					ld.addClass("collapse");
+
+
+					var er = $(tar).children("#errorview");
+					ld.removeClass("collapse");
+
+				}, {"event_hashname": f.name}).send();
+			f.sent_request = true;
+		}
+
+	}*/
+
+
 
 
 

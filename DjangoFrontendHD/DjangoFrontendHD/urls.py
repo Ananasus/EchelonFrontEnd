@@ -16,8 +16,8 @@ from syncdb.forms import BootstrapAuthenticationForm
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'syncdb.views.home', name='home'),
-    url(r'^contact$', 'syncdb.views.contact', name='contact'),
-    url(r'^about', 'syncdb.views.about', name='about'),
+    url(r'^load/$',
+        'syncdb.views.load', name='loadaverage'),
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
@@ -39,7 +39,8 @@ urlpatterns = patterns('',
     url(r'^api/get_recent', 'syncdb.views.get_recent', name='recents'),
     url(r'^api/gen_data', 'syncdb.views.gen_data', name='gendata'),
     url(r'^api/get_load', 'syncdb.views.get_load', name='loadaverage'),
-    url(r'^api/get_event', 'syncdb.views.get_event', name='eventget')
+    url(r'^api/get_event', 'syncdb.views.get_event_data', name='eventget'),
+    url(r'^api/gen_load', 'syncdb.views.gen_load', name='eventget')
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

@@ -4,8 +4,8 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>DjangoFrontendHD</Name>
     <RootNamespace>DjangoFrontendHD</RootNamespace>
-    <InterpreterId>{93f8619e-1fec-478f-bec1-b9eb5f81fe30}</InterpreterId>
-    <InterpreterVersion>2.7</InterpreterVersion>
+    <InterpreterId>{c3542425-95a7-4b65-97ce-9322a371a474}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>

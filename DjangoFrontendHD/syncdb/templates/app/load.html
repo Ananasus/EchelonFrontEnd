@@ -1,0 +1,67 @@
+{% extends "app/layout.html" %}
+{% load staticfiles %}
+{% block content %}
+{% load djangular_tags %}
+<script type="text/javascript" src="{% static 'app/scripts/main.js' %}" ></script>
+
+
+<div id="angularjs_wrapper" ng-app="RedisSync">
+    {% angularjs %}
+    <div class="jumbotron">
+        <h1 ng-controller="RedisDbSyncSetup">Load Average Overview</h1>
+        <p class="lead">Load Average Live Update</p>
+
+
+        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_db_button" data-toggle="tooltip" title="Just For Debugging Purposes Only."><span class="glyphicon glyphicon-alert"></span> Start Gen Data</span> </p>
+        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_db_button">Start Sync</span></p>
+    </div>
+    {% endangularjs %}
+
+    <!-- This row is for scripts output-->
+
+    <div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup" style="overflow: auto">
+        <ul class="list-unstyled">
+            <li>
+                <h4 class="text-info">
+                    CPU LOAD: {{initial_cpu}}
+                </h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"><span class="sr-only"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h4 class="text-info">
+                    MEMORY LOAD: {{initial_hrd_read}}
+                </h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"><span class="sr-only"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+            </li>
+
+        </ul>
+
+        {% angularjs %}
+        {% endangularjs %}
+    </div>
+
+
+    <div class="jumbotron">
+        <h2>Output log</h2>
+        <div>
+            <table id="erro_table-content">
+            </table>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+{% endblock %}

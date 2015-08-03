@@ -20,16 +20,36 @@
     <!-- This row is for scripts output-->
     {% angularjs %}
     <div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup" style="overflow: auto">
-            <table class="table-responsive table-hover container table-bordered" id="events_output" style="overflow: auto">
-                <th>Event UID</th>
-                <th>Event SID</th>
-                <th>Event Description</th>
-                <th>Event Alert Type</th>
-                <tr onclick="LoadEventInfo" id="event_output_template" ng-repeat="event in events" style="cursor: pointer" class="table-bordered?{ warning: (event.type == 'wrn'), danger: (event.type == 'err')}" >
-                    <td>{{event.uid}}</td>
+            <table class="table-responsive container text-center" id="events_output" style="overflow: auto">
+                <th class="text-center">Event UID</th>
+                <th class="text-center">Event SID</th>
+                <th class="text-center">Event Origin</th>
+                <th class="text-center">Event Alert Type</th>
+                <tr onclick="ToggleEventInfo(this)" id="event_output_template" class="text-center" ng-repeat-start="event in events" style="cursor: pointer" ng-class="{ 'btn-warning': (event.type == 'wrn'), 'btn-danger': (event.type == 'err')}" >
+                    <td id="uid">{{event.uid}}</td>
                     <td>{{event.sid}}</td>
-                    <td>{{event.desc}}</td>
+                    <td>{{event.origin}}</td>
                     <td>{{event.type}}</td>
+                </tr>
+                <tr id="event_output_expanded_template" ng-repeat-end class="collapse">
+                    <td colspan="99">
+                        <ul class="list-unstyled text-center">
+                            <li class="text-info" id="loading">
+                                Loading...
+                            </li>
+                            <li class="text-danger" id="error">
+                                Error Occured
+                            </li>
+                            <ul class="list-unstyled" id="ulfull">
+                                <li>Uid: {{event.uid}}</li>
+                                <li>Sid: {{event.sid}}</li>
+                                <li>Date: {{event.date}}</li>
+                                <li>Origin: {{event.origin}}</li>
+                                <li>Description: {{event.desc}}</li>
+                                <li>Type: {{event.type}}</li>
+                            </ul>
+                        </ul>
+                    </td>
                 </tr>
 
             </table>
@@ -39,10 +59,7 @@
     <div class="jumbotron">
         <h2>Output log</h2>
         <div>
-            <table>
-                <tr>
-
-                </tr>
+            <table id="erro_table-content">
             </table>
         </div>
 

@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15a9276-c40a-434b-8ef1-96226ba8d83d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main_load.js" />
+      <change type="MOVED" beforePath="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\syncdb\templates\app\index_dashboard.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echelon.v12.suo" afterPath="$PROJECT_DIR$/Echelon.v12.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/bin/AzureSetup.cfg" afterPath="$PROJECT_DIR$/DjangoFrontendHD/bin/AzureSetup.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD.pyproj" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD.pyproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.css" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.min.css" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/content/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/deployment-updated-orig-prefix.txt" afterPath="$PROJECT_DIR$/DjangoFrontendHD/obj/Debug/deployment-updated-orig-prefix.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/models.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/redissync.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/redissync.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/settings.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/urls.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/DjangoFrontendHD/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/views.py" afterPath="$PROJECT_DIR$/DjangoFrontendHD/syncdb/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoFrontendHD/web.config" afterPath="$PROJECT_DIR$/DjangoFrontendHD/web.config" />
@@ -51,14 +44,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28196347">
-              <caret line="201" column="29" selection-start-line="201" selection-start-column="29" selection-end-line="201" selection-end-column="29" />
+            <state vertical-scroll-proportion="-10.407408">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
+                <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
+                <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+                <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+                <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+                <element signature="e#8373#9477#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="olololo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/charts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="35.307693">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/load.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.961538">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_load.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main_load.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08789954">
+              <caret line="174" column="31" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
                 <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/bootstrap-elements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="393" column="17" selection-start-line="391" selection-start-column="16" selection-end-line="394" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.846154">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +139,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.73077">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -77,22 +150,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index_dashboard.html">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3461537">
-              <caret line="443" column="38" selection-start-line="443" selection-start-column="38" selection-end-line="443" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding />
+            <state vertical-scroll-proportion="-12.807693">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <folding>
+                <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,10 +170,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" />
         <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html" />
         <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html" />
         <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index_dashboard.html" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/load.html" />
+        <option value="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main_load.js" />
       </list>
     </option>
   </component>
@@ -131,7 +199,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -248,6 +316,70 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Echelon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Echelon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoFrontendHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syncdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Echelon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Echelon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoFrontendHD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syncdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -258,13 +390,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\syncdb\static\app\scripts" />
+      <recent name="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\syncdb\templates\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Raaw\Documents\Visual Studio 2013\Projects\Echelon\DjangoFrontendHD\syncdb\static\app\fonts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration default="false" name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -303,6 +444,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.main.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -321,7 +470,7 @@
     <frame x="0" y="40" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -372,7 +521,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -382,7 +531,147 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
             <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+            <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+            <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+            <element signature="e#8373#9477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="462" column="26" selection-start-line="462" selection-start-column="26" selection-end-line="462" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="29" selection-end-column="87" />
+          <folding>
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="224" column="57" selection-start-line="224" selection-start-column="57" selection-end-line="224" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+            <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+            <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+            <element signature="e#8373#9477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="462" column="26" selection-start-line="462" selection-start-column="26" selection-end-line="462" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="224" column="57" selection-start-line="224" selection-start-column="57" selection-end-line="224" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+            <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+            <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+            <element signature="e#8373#9477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+            <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+            <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+            <element signature="e#8373#9477#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -411,40 +699,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.5">
           <caret line="223" column="10" selection-start-line="33" selection-start-column="4" selection-end-line="223" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
+        <state vertical-scroll-proportion="-12.807693">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index_dashboard.html">
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3461537">
-          <caret line="443" column="38" selection-start-line="443" selection-start-column="38" selection-end-line="443" selection-end-column="38" />
+        <state vertical-scroll-proportion="-10.846154">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -453,11 +740,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/olololo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="35.307693">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/bootstrap-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="393" column="17" selection-start-line="391" selection-start-column="16" selection-end-line="394" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/templates/app/load.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.961538">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28196347">
-          <caret line="201" column="29" selection-start-line="201" selection-start-column="29" selection-end-line="201" selection-end-column="29" />
+        <state vertical-scroll-proportion="-10.407408">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
+            <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
+            <element signature="n#!!block;n#AppendEventData#0" expanded="false" />
+            <element signature="n#!!block;n#ToggleEventInfo#0" expanded="false" />
+            <element signature="e#8373#9477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoFrontendHD/syncdb/static/app/scripts/main_load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08789954">
+          <caret line="174" column="31" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!block;n#ButtonToggler#0" expanded="false" />
             <element signature="n#!!block;n#AJAXRequest#0" expanded="false" />
           </folding>
         </state>
