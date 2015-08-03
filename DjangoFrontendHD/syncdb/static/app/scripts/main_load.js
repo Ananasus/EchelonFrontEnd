@@ -167,6 +167,8 @@ function UpdateLoadData(data){
 
 ///MAIN FUNCTION
 $(document).ready( function(){
+	//Add as active
+	$("#LoadMenuItem").addClass("active");
 
 	LoadAveragePublic.GetLoadRequest = new AJAXRequest("api/get_load", null, function (tar, json){
 		UpdateLoadData(json);

@@ -24,11 +24,15 @@
                 <th class="text-center">Event UID</th>
                 <th class="text-center">Event SID</th>
                 <th class="text-center">Event Origin</th>
+                <th class="text-center">Event Timestamp</th>
+                <th class="text-center">Event Data</th>
                 <th class="text-center">Event Alert Type</th>
                 <tr onclick="ToggleEventInfo(this)" id="event_output_template" class="text-center" ng-repeat-start="event in events" style="cursor: pointer" ng-class="{ 'btn-warning': (event.type == 'wrn'), 'btn-danger': (event.type == 'err')}" >
                     <td id="uid">{{event.uid}}</td>
                     <td>{{event.sid}}</td>
                     <td>{{event.origin}}</td>
+                    <td>{{event.timestamp}}</td>
+                    <td>{{event.data}}</td>
                     <td>{{event.type}}</td>
                 </tr>
                 <tr id="event_output_expanded_template" ng-repeat-end class="collapse">

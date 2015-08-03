@@ -344,6 +344,8 @@ function ToggleEventInfo(tar){
 
 ///MAIN FUNCTION
 $(document).ready( function(){
+	$("#EventsMenuItem").addClass("active");
+
 
 	GetRecentRequest = new AJAXRequest("api/get_recent", null, function (tar, json){
 		DataSend.last_known_id = json.last_known_id;
