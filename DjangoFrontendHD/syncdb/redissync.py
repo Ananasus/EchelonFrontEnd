@@ -52,30 +52,20 @@ def request_most_recent_data(last_known, max_events):
     #rank = r.zrevrank("dates",last_known)
     rank = None
     hashes_to_fetch = []
+    result = [ last_known, recent ]
     recent = [ ]
     if(rank == None):
         #fetch all keys
         hashes_to_fetch = r.lrange('dates',0,max_events)
     elif(rank!= None and rank>0):
         hashes_to_fetch = r.lrange('dates',0,min(max_events,rank-1))
-    if( 'event:'+hashes_to_fetch[0] == last_known):
-        return [ last_known, recent ]
-    for name in hashes_to_fetch:
-        obj = r.hmget('event:'+name,'uid','sid','type', 'origin')
-        
-        recent.append(json.dumps({
-                'name': name,
-                'sid': obj[1],
-                'uid': obj[0],
-                'type': obj[2],
-                'origin':obj[3]
-            }))
-
-    l = len(hashes_to_fetch)
-    if(l>0):
-        result = [ hashes_to_fetch[0], recent ]
-    else:
-        result = [ last_known, recent ]
+    if( 'event:'+hashes_to_fetch[0] != last_known):
+        for name in hashes_to_fetch:
+            obj = r.hmget('event:'+name,'uid','sid','type', 'origin')
+            recent.append(json.dumps({ 'name': 'event:'+name, 'sid': obj[1], 'uid': obj[0], 'type': obj[2], 'origin':obj[3] }))
+        l = len(hashes_to_fetch)
+        if(l>0):
+            result = [ 'event:'+hashes_to_fetch[0], recent ]  
     return result
 
 def request_event_data(event_hashname):
