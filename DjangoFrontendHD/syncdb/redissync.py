@@ -13,7 +13,7 @@ REDIS_DATABASE_NO = 0
 REDIS_DATABASE_PORT = 11281
 REDIS_DATABASE_PASS = '1233'
 
-CONNECT_TO_LOCAL = False
+CONNECT_TO_LOCAL = True
 
 import random
 from syncdb.models import *
@@ -30,6 +30,7 @@ def connect_to_redis(override_to_connect_local = None):
 
 def data_gen(number_of):
     r = connect_to_redis()
+    r.nam
     # Fields:
         # Event Name
         # Event Alert Type: { "log", "error", "warning" }

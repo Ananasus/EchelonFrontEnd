@@ -204,7 +204,7 @@ $(document).ready( function(){
 
 
 angular.module('RedisSync', [])
-	.controller('RedisDbSyncSetup', function($scope) {
+	.controller('LoadAverageModuleSetup', function($scope) {
 		$scope.loadaverage = {"cpload":0, "memloaded":0,"memtotal":0,"diskloaded":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 };
 		LoadAveragePublic.scope = $scope;
 		LoadAveragePublic.la = $scope.loadaverage;
