@@ -57,9 +57,10 @@ def request_most_recent_data(last_known, max_events):
         hashes_to_fetch = r.lrange('dates',0,max_events)
     elif(rank!= None and rank>0):
         hashes_to_fetch = r.lrange('dates',0,min(max_events,rank-1))
-
+    if( 'event:'+hashes_to_fetch[0] == last_known):
+        return [ last_known, recent ]
     for name in hashes_to_fetch:
-        obj = r.hmget(name,'uid','sid','type', 'origin')
+        obj = r.hmget('event:'+name,'uid','sid','type', 'origin')
         
         recent.append(json.dumps({
                 'name': name,
