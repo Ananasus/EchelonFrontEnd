@@ -53,7 +53,12 @@ class Event(models.Model):
     def _debug_gen(seed):
         uid = random.getrandbits(128).__str__()
         sid = random.getrandbits(128).__str__()
-        name = STRING_PREFIX+uid
+        dt = datetime.datetime.now()
+        assert isinstance(dt, datetime.datetime)
+        #total seconds
+        s = str(random.randint(0,99999999))
+        s = s.zfill(8-len(s))
+        name = STRING_PREFIX+":"+(dt-datetime.datetime(1970,1,1)).total_seconds()+"."+s
         originid = random.getrandbits(128).__str__()
         desc = "Just some random text #"+random.randint(0,2*seed) .__str__()
         type = random.choice(["wrn","log","err"])
