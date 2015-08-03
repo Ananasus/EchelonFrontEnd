@@ -117,7 +117,7 @@ class LoadAverage():
         memloaded = random.randint(1,MAX_MEMORY)
         memtotal = random.randint(memloaded, MAX_MEMORY)
         diskload = random.randint(1, MAX_DISK)
-        disktotal = random.randint(diskloaded, MAX_DISK)
+        disktotal = random.randint(diskload, MAX_DISK)
         diskread = random.randint(1, MAX_READ)
         diskwrite = random.randint(1, MAX_WRITE)
         time = datetime.datetime.now()
