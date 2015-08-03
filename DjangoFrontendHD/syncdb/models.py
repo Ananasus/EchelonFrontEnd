@@ -114,8 +114,8 @@ class LoadAverage():
         
 
         cpload = random.randint(1,100)
-        memloaded = random.randint(1,MAX_MEMORY)
-        memtotal = random.randint(memloaded, MAX_MEMORY)
+        memload = random.randint(1,MAX_MEMORY)
+        memtotal = random.randint(memload, MAX_MEMORY)
         diskload = random.randint(1, MAX_DISK)
         disktotal = random.randint(diskload, MAX_DISK)
         diskread = random.randint(1, MAX_READ)
