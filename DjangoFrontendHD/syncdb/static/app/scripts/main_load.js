@@ -160,7 +160,18 @@ function csrfSafeMethod(method) {
 
 function UpdateLoadData(data){
 	LoadAveragePublic.la = jQuery.parseJSON(data);
+	//check
+	var ll = {	"cpload":LoadAveragePublic.la.cpload!=undefined?LoadAveragePublic.la.cpload:"N/A",
+				"memload":LoadAveragePublic.la.memload!=undefined?LoadAveragePublic.la.memload:"N/A",
+				"memtotal":LoadAveragePublic.la.memtotal!=undefined?LoadAveragePublic.la.memtotal:"N/A",
+				"diskload":LoadAveragePublic.la.diskload!=undefined?LoadAveragePublic.la.diskload:"N/A",
+				 "disktotal":LoadAveragePublic.la.disktotal!=undefined?LoadAveragePublic.la.disktotal:"N/A",
+				"diskread":LoadAveragePublic.la.diskread!=undefined?LoadAveragePublic.la.diskread:"N/A",
+				"diskwrite":LoadAveragePublic.la.diskwrite!=undefined?LoadAveragePublic.la.diskwrite:"N/A",
+				"connections":LoadAveragePublic.la.connections!=undefined?LoadAveragePublic.la.connections:"N/A",
+				"time":LoadAveragePublic.la.time!=undefined?LoadAveragePublic.la.time:"N/A"};
 	//update bindings
+	LoadAveragePublic.la = ll;
 	LoadAveragePublic.scope.loadaverage = LoadAveragePublic.la;
 	LoadAveragePublic.scope.$digest();
 
@@ -209,7 +220,7 @@ $(document).ready( function(){
 
 angular.module('RedisSync', [])
 	.controller('LoadAverageModuleSetup', function($scope) {
-		$scope.loadaverage = {"cpload":0, "memload":0,"memtotal":0,"diskloaded":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 };
+		$scope.loadaverage = {"cpload":0, "memload":0,"memtotal":0,"diskload":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 , "date":Date.now().toString() };
 		LoadAveragePublic.scope = $scope;
 		LoadAveragePublic.la = $scope.loadaverage;
 

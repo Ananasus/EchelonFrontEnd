@@ -92,7 +92,7 @@ class LoadAverage():
         self.memload = meml
         self.memtotal = memt
         self.disktotal = diskt
-        self.diskloaded = diskl
+        self.diskload = diskl
         self.diskread = diskr
         self.diskwrite = diskw
         self.time = time
@@ -130,7 +130,7 @@ class LoadAverage():
         time = json.dumps(datetime.datetime.now(), default=dthandler)
         connections = random.randint(1, MAX_CONNECTIONS)    
 
-        load = LoadAverage(cpload,memload,memtotal,diskloaded,disktotal,diskread,diskwrite,time,connections)
+        load = LoadAverage(cpload,memload,memtotal,diskload,disktotal,diskread,diskwrite,time,connections)
         
 
         return load
