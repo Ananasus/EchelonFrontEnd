@@ -159,9 +159,11 @@ function csrfSafeMethod(method) {
 }
 
 function UpdateLoadData(data){
-
+	LoadAveragePublic.la = jQuery.parseJSON(data);
 	//update bindings
-	scope.$digest();
+	LoadAveragePublic.scope.loadaverage = LoadAveragePublic.la;
+	LoadAveragePublic.scope.$digest();
+
 }
 
 
@@ -170,10 +172,10 @@ $(document).ready( function(){
 	//Add as active
 	$("#LoadMenuItem").addClass("active");
 
-	LoadAveragePublic.GetLoadRequest = new AJAXRequest("api/get_load", null, function (tar, json){
+	LoadAveragePublic.GetLoadRequest = new AJAXRequest("/api/get_load", null, function (tar, json){
 		UpdateLoadData(json);
 		
-	}, null, null, LoadAveragePublic.UpdateInterval, false, true);
+	}, null, null, LoadAveragePublic.UpdateInterval, true, true);
 	LoadAveragePublic.GetLoadButton = new ButtonToggler($("#sync_load_button"),true,
 		function() {
 			LoadAveragePublic.GetLoadRequest.stop.call(LoadAveragePublic.GetLoadRequest);
@@ -182,7 +184,7 @@ $(document).ready( function(){
 			LoadAveragePublic.GetLoadRequest.start.call(LoadAveragePublic.GetLoadRequest);
 		},true,"Start Sync","Stop Sync",null);
 
-	LoadAveragePublic.GenDataRequest = new AJAXRequest('api/gen_load',null,
+	LoadAveragePublic.GenDataRequest = new AJAXRequest('/api/gen_load',null,
 		function(tar, json) {
 
 		}, null, null, LoadAveragePublic.GenDataInterval, false, true);
@@ -207,7 +209,7 @@ $(document).ready( function(){
 
 angular.module('RedisSync', [])
 	.controller('LoadAverageModuleSetup', function($scope) {
-		$scope.loadaverage = {"cpload":0, "memloaded":0,"memtotal":0,"diskloaded":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 };
+		$scope.loadaverage = {"cpload":0, "memload":0,"memtotal":0,"diskloaded":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 };
 		LoadAveragePublic.scope = $scope;
 		LoadAveragePublic.la = $scope.loadaverage;
 

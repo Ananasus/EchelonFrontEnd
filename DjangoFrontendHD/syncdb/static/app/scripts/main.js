@@ -347,7 +347,7 @@ $(document).ready( function(){
 	$("#EventsMenuItem").addClass("active");
 
 
-	GetRecentRequest = new AJAXRequest("api/get_recent", null, function (tar, json){
+	GetRecentRequest = new AJAXRequest("/api/get_recent", null, function (tar, json){
 		DataSend.last_known_id = json.last_known_id;
 		AppendEventData(json.data);
 		
@@ -360,7 +360,7 @@ $(document).ready( function(){
 			GetRecentRequest.start.call(GetRecentRequest);
 		},true,"Start Sync","Stop Sync",null);
 
-	GenDataRequest = new AJAXRequest('api/gen_data',null,
+	GenDataRequest = new AJAXRequest('/api/gen_data',null,
 		function(tar, json) {
 
 		}, null, GenDataSend, GenDataInterval, false, true);

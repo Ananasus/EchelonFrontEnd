@@ -6,20 +6,19 @@
 
 
 <div id="angularjs_wrapper" ng-app="RedisSync">
-    {% angularjs %}
+
     <div class="jumbotron">
         <h1 ng-controller="LoadAverageModuleSetup">Load Average Overview</h1>
         <p class="lead">Load Average Live Update</p>
 
 
-        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_db_button" data-toggle="tooltip" title="Just For Debugging Purposes Only.">
+        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_load_button" data-toggle="tooltip" title="Just For Debugging Purposes Only.">
             <span class="glyphicon glyphicon-alert"></span> Start Gen AverageLoad</span> </p>
-        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_db_button">Start Sync AverageLoad</span></p>
+        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_load_button">Start Sync AverageLoad</span></p>
     </div>
-    {% endangularjs %}
 
     <!-- This row is for scripts output-->
-
+    {% angularjs %}
     <div class="jumbotron" id="console_log_parent" ng-controller="LoadAverageModuleSetup" style="overflow: auto">
         <ul class="list-unstyled">
             <li>
@@ -32,18 +31,18 @@
                     <th>READ FROM DISK</th>
                     <th>WRITE TO DISK</th>
                     <th>CONNECTIONS</th>
-                    <tr ng-model="loadaverage">
-                        <td>{{cpload}}</td>
-                        <td>{{memloaded}}</td>
-                        <td>{{memtotal}}</td>
-                        <td>{{diskloaded}}</td>
-                        <td>{{disktotal}}</td>
-                        <td>{{diskread}}</td>
-                        <td>{{diskwrite}}</td>
-                        <td>{{connections}}</td>
+                    <tr ng-class="loadaverage">
+                        <td>{{loadaverage.cpload}}</td>
+                        <td>{{loadaverage.memload}}</td>
+                        <td>{{loadaverage.memtotal  }}</td>
+                        <td>{{loadaverage.diskloaded  }}</td>
+                        <td>{{loadaverage.disktotal  }}</td>
+                        <td>{{loadaverage.diskread  }}</td>
+                        <td>{{loadaverage.diskwrite  }}</td>
+                        <td>{{loadaverage.connections }}</td>
                     </tr>
-                    <tr ng-model="loadaverage">
-                        <td colspan="99">Last Updated: {{time}}</td>
+                    <tr ng-class="loadaverage">
+                        <td colspan="99">Last Updated: {{loadaverage.time}}</td>
                     </tr>
                 </table>
             </li>
@@ -70,7 +69,6 @@
 
         </ul>
 
-        {% angularjs %}
         {% endangularjs %}
     </div>
 

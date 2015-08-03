@@ -117,11 +117,8 @@ def gen_load(request):
 def get_load(request):
     if request.is_ajax:
         # do your stuff here
-        
         import syncdb.redissync
         from django.template.context_processors import csrf
-        request_data = syncdb.redissync.request_most_recent_data(request_body)
-        import syncdb.redissync
         response = syncdb.redissync.request_load_data()
         return HttpResponse(json.dumps(response), status=200, content_type="application/json")
     else:

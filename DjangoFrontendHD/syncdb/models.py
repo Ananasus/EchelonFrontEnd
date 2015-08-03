@@ -116,7 +116,7 @@ class LoadAverage():
         cpload = random.randint(1,100)
         memloaded = random.randint(1,MAX_MEMORY)
         memtotal = random.randint(memloaded, MAX_MEMORY)
-        diskloaded = random.randint(1, MAX_DISK)
+        diskload = random.randint(1, MAX_DISK)
         disktotal = random.randint(diskloaded, MAX_DISK)
         diskread = random.randint(1, MAX_READ)
         diskwrite = random.randint(1, MAX_WRITE)
@@ -130,7 +130,7 @@ class LoadAverage():
         time = json.dumps(datetime.datetime.now(), default=dthandler)
         connections = random.randint(1, MAX_CONNECTIONS)    
 
-        load = LoadAverage(cpload,memloaded,memtotal,diskloaded,disktotal,diskread,diskwrite,time,connections)
+        load = LoadAverage(cpload,memload,memtotal,diskloaded,disktotal,diskread,diskwrite,time,connections)
         
 
         return load
