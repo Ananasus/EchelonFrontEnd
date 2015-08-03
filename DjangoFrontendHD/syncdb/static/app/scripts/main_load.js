@@ -172,7 +172,7 @@ $(document).ready( function(){
 		UpdateLoadData(json);
 		
 	}, null, null, LoadAveragePublic.UpdateInterval, false, true);
-	LoadAveragePublic.GetLoadButton = new ButtonToggler($("#sync_db_button"),true,
+	LoadAveragePublic.GetLoadButton = new ButtonToggler($("#sync_load_button"),true,
 		function() {
 			LoadAveragePublic.GetLoadRequest.stop.call(LoadAveragePublic.GetLoadRequest);
 		},
@@ -185,16 +185,16 @@ $(document).ready( function(){
 
 		}, null, null, LoadAveragePublic.GenDataInterval, false, true);
 
-	LoadAveragePublic.GenDataButton = new ButtonToggler("#gen_db_button",false,
+	LoadAveragePublic.GenDataButton = new ButtonToggler("#gen_load_button",false,
 	function(){
 		var s = $(LoadAveragePublic.GenDataButton.Target).html().replace("Stop","Start");
 		$(LoadAveragePublic.GenDataButton.Target).empty().append(s);
-		GenDataRequest.stop.call(GenDataRequest);
+		LoadAveragePublic.GenDataRequest.stop.call(LoadAveragePublic.GenDataRequest);
 	},
 	function(){
 		var s = $(LoadAveragePublic.GenDataButton.Target).html().replace("Start","Stop");
 		$(LoadAveragePublic.GenDataButton.Target).empty().append(s);
-		GenDataRequest.start.call(GenDataRequest);
+		LoadAveragePublic.GenDataRequest.start.call(LoadAveragePublic.GenDataRequest);
 	}, false, null, null, null);
 	//we will make togllable button's tooltip
 	$('[data-toggle="tooltip"]').tooltip();
@@ -205,9 +205,9 @@ $(document).ready( function(){
 
 angular.module('RedisSync', [])
 	.controller('RedisDbSyncSetup', function($scope) {
-		$scope.events = [{"type": "a", "sid": 197718341090436080329598542453518625507, "uid": 89982298614867403075834338541199092940, "desc": "Just some random text #41"}];
-		events = $scope.events;
-		scope = $scope;
+		$scope.loadaverage = {"cpload":0, "memloaded":0,"memtotal":0,"diskloaded":0,"disktotal":0,"diskread":0,"diskwrite":0,"connections":0 };
+		LoadAveragePublic.scope = $scope;
+		LoadAveragePublic.la = $scope.loadaverage;
 
 	});
 

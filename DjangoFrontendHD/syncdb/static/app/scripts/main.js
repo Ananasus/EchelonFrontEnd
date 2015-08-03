@@ -15,7 +15,7 @@ var RecentInterval = 5000,
 	LastKnownId = "_none_",
 	GenDataSend = {"gen_count":1000},
 	DataSend = {"max_events":RecentMax,"last_known_id":LastKnownId};
-
+	
 
 var GenDataRequest = null, GetRecentRequest = null;
 var GenDataButton = null, GetRecentButton = null;

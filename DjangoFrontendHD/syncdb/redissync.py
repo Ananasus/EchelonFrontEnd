@@ -13,15 +13,15 @@ REDIS_DATABASE_NO = 0
 REDIS_DATABASE_PORT = 11281
 REDIS_DATABASE_PASS = '1233'
 
-CONNECT_TO_LOCAL = True
+CONNECT_TO_LOCAL = False
 
 import random
 from syncdb.models import *
 
 
-def connect_to_redis():
+def connect_to_redis(override_to_connect_local = None):
     redis_connection = None
-    if(CONNECT_TO_LOCAL == True):
+    if( (override_to_connect_local == None and CONNECT_TO_LOCAL == True) or override_to_connect_local == True):
         redis_connection = redis.StrictRedis(REDIS_LOCAL_DATABASE_ADDR, REDIS_LOCAL_DATABASE_PORT, REDIS_LOCAL_DATABASE_NO, None, 90, 10, True, decode_responses=True)
     else:
         redis_connection = redis.StrictRedis(REDIS_DATABASE_ADDR, REDIS_DATABASE_PORT, REDIS_DATABASE_NO, REDIS_DATABASE_PASS, 90, 10, True, decode_responses=True)
@@ -39,26 +39,27 @@ def data_gen(number_of):
     dates = []
 
     for i in range(0,number_of):
-        event = Event._debug_gen()
-        r.hmset(event.name, { 'sid': event.sid, 'uid': event.uid, 'desc': event.desc, 'type': event.type, 'origin':event.originid, 'time':event.time })
-        dates += [event.time, event.name]
-    r.zadd("dates", *dates);    
+        e = Event._debug_gen(number_of)
+        r.hmset(e.name, { 'sid': e.sid, 'uid': e.uid, 'desc': e.desc, 'type': e.type, 'origin':e.originid, 'time':e.time })
+        dates.append(e.name)
+    r.lpush("dates", *dates);    
 
     return 0
 
 def request_most_recent_data(last_known, max_events):
     r = connect_to_redis()
-    rank = r.zrevrank("dates",last_known)
+    #rank = r.zrevrank("dates",last_known)
+    rank = None
     hashes_to_fetch = []
     recent = [ ]
     if(rank == None):
         #fetch all keys
-        hashes_to_fetch = r.zrevrange('dates',0,max_events)
+        hashes_to_fetch = r.lrange('dates',0,max_events)
     elif(rank!= None and rank>0):
-        hashes_to_fetch = r.zrevrange('dates',0,min(max_events,rank-1))
+        hashes_to_fetch = r.lrange('dates',0,min(max_events,rank-1))
 
     for name in hashes_to_fetch:
-        obj = r.hmget(name,u'uid',u'sid',u'type', u'origin')
+        obj = r.hmget(name,'uid','sid','type', 'origin')
         
         recent.append(json.dumps({
                 'name': name,

@@ -2,6 +2,7 @@
 Definition of models.
 """
 import random
+import time
 import datetime
 from django.db import models
 import json
@@ -32,8 +33,8 @@ class Event(models.Model):
     desc = models.TextField,
     originid = models.BigIntegerField,
     name = models.TextField,
-    time = models.DateField,
-    EVENT_PREFIX = "event:"
+    time = models.BigIntegerField,
+    STRING_PREFIX = "event:"
     def __str__(self):
         return "[ Security Event: UID: "+self.uid.__str__()+" SID: "+self.sid.__str__()+" Alert Class: "+self.alert_class+" Description: "+self.description+" ]"
     def __init__(self, uid, sid, name, type, desc, originid, time):
@@ -50,6 +51,7 @@ class Event(models.Model):
     def deserialize(self, data):
         self.__dict__ = json.loads(data)
     #generates random event with data. For debugging only
+    @staticmethod
     def _debug_gen(seed):
         uid = random.getrandbits(128).__str__()
         sid = random.getrandbits(128).__str__()
@@ -58,13 +60,14 @@ class Event(models.Model):
         #total seconds
         s = str(random.randint(0,99999999))
         s = s.zfill(8-len(s))
-        name = STRING_PREFIX+":"+(dt-datetime.datetime(1970,1,1)).total_seconds()+"."+s
+        tm = int((dt-datetime.datetime(1970,1,1)).total_seconds())
+        name = Event.STRING_PREFIX+":"+tm.__str__()+"."+s
         originid = random.getrandbits(128).__str__()
         desc = "Just some random text #"+random.randint(0,2*seed) .__str__()
         type = random.choice(["wrn","log","err"])
-        time = strTimeProp(time.time(),time.time()-5, round(random.uniform(0,1),3))
+        
 
-        event = Event(uid, sid, name, type, desc, originid, time)
+        event = Event(uid, sid, name, type, desc, originid, tm)
         return event
 
 
@@ -100,6 +103,7 @@ class LoadAverage():
         return json.dumps(self.__dict__)
     def deserialize(self, data):
         self.__dict__ = json.loads(data)
+    @staticmethod
     def _debug_gen():
         MAX_MEMORY = 1024*1024*1024*16 # 16 GB
         MAX_DISK = 1024*1024*1024*1024 # 1 TB

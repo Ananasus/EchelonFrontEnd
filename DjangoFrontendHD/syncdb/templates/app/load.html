@@ -12,15 +12,41 @@
         <p class="lead">Load Average Live Update</p>
 
 
-        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_db_button" data-toggle="tooltip" title="Just For Debugging Purposes Only."><span class="glyphicon glyphicon-alert"></span> Start Gen Data</span> </p>
-        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_db_button">Start Sync</span></p>
+        <p class="col-md-4"><span class="btn btn-large btn-danger col-md-5 text-center" id="gen_db_button" data-toggle="tooltip" title="Just For Debugging Purposes Only.">
+            <span class="glyphicon glyphicon-alert"></span> Start Gen AverageLoad Data</span> </p>
+        <p class="col-md-4"><span class="btn btn-large btn-default col-md-5" id="sync_db_button">Start Sync AverageLoad</span></p>
     </div>
     {% endangularjs %}
 
     <!-- This row is for scripts output-->
 
-    <div class="jumbotron" id="console_log_parent" ng-controller="RedisDbSyncSetup" style="overflow: auto">
+    <div class="jumbotron" id="console_log_parent" ng-controller="LoadAverageModuleSetup" style="overflow: auto">
         <ul class="list-unstyled">
+            <li>
+                <table class="text-center table-bordered table-responsive">
+                    <th>CPU LOAD</th>
+                    <th>MEMORY LOADED</th>
+                    <th>MEMORY TOTAL</th>
+                    <th>DISK LOADED</th>
+                    <th>DISK TOTAL</th>
+                    <th>READ FROM DISK</th>
+                    <th>WRITE TO DISK</th>
+                    <th>CONNECTIONS</th>
+                    <tr ng-model="loadaverage">
+                        <td>{{cpload}}</td>
+                        <td>{{memloaded}}</td>
+                        <td>{{memtotal}}</td>
+                        <td>{{diskloaded}}</td>
+                        <td>{{disktotal}}</td>
+                        <td>{{dirkread}}</td>
+                        <td>{{diskwrite}}</td>
+                        <td>{{connections}}</td>
+                    </tr>
+                    <tr ng-model="loadaverage">
+                        <td colspan="99">Last Updated: {{time}}</td>
+                    </tr>
+                </table>
+            </li>
             <li>
                 <h4 class="text-info">
                     CPU LOAD: {{initial_cpu}}

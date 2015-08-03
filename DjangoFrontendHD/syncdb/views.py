@@ -87,7 +87,7 @@ def gen_data(request):
         request_body = ''
         try:
             request_body = json.loads(request.body.decode())
-            request_body = int(request_body['number'])
+            request_body = int(request_body['gen_count'])
         except:
             request_body = 0
         print('REQUEST IN THE END: '+request_body.__str__())
