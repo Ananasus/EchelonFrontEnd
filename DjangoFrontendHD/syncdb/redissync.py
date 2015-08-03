@@ -13,7 +13,7 @@ REDIS_DATABASE_NO = 0
 REDIS_DATABASE_PORT = 11281
 REDIS_DATABASE_PASS = '1233'
 
-CONNECT_TO_LOCAL = False
+CONNECT_TO_LOCAL = True
 
 import random
 from syncdb.models import *
