@@ -52,8 +52,8 @@ def request_most_recent_data(last_known, max_events):
     #rank = r.zrevrank("dates",last_known)
     rank = None
     hashes_to_fetch = []
-    result = [ last_known, recent ]
     recent = [ ]
+    result = [ last_known, recent ]
     if(rank == None):
         #fetch all keys
         hashes_to_fetch = r.lrange('dates',0,max_events)
